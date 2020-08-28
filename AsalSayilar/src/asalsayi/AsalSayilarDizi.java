@@ -10,7 +10,7 @@ public class AsalSayilarDizi {
 		
 		ArrayList<Integer> asalSayilar = new ArrayList<>();
 		
-		System.out.print("Sayı Giriniz : ");
+		System.out.print("SayÃ½ Giriniz : ");
 		int sayi = new Scanner(System.in).nextInt();
 		boolean durum = true;
 		long bas =System.currentTimeMillis();
@@ -21,10 +21,6 @@ public class AsalSayilarDizi {
 			{
 				if (i%x==0) {
 					durum=false;
-					break;
-				}
-				
-				if (Math.sqrt(i)>x) {
 					break;
 				}
 			}
@@ -39,8 +35,8 @@ public class AsalSayilarDizi {
 		for (Integer eleman : asalSayilar) {
 			System.out.println(eleman);
 		}
-		System.out.println((son-bas)+" sanise sürdü.");
-		System.out.println(asalSayilar.size()+" tane asal sayı vardır.");
+		System.out.println((son-bas)+" sanise sÃ¼rdÃ¼.");
+		System.out.println(asalSayilar.size()+" tane asal sayÃ½ vardÃ½r.");
 		
 	}
 
